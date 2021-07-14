@@ -1,0 +1,26 @@
+@import "../../styles/_scss/variables";
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.child {
+  width: calc(100% * (1 / 2) - #{$gutter});
+  margin: calc(#{$gutter} / 2);
+}
+
+@media (min-width: $tablet) {
+  .child {
+    width: calc(100% * (1 / 3) - #{$gutter});
+    margin: calc(#{$gutter} / 2);
+  }
+}
+
+@media (min-width: $desktop) {
+  .child {
+    width: calc(100% * (1 / 4) - #{$gutter});
+    margin: calc(#{$gutter} / 2);
+  }
+}

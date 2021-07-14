@@ -1,0 +1,22 @@
+@import "../../../../styles/_scss/variables";
+
+.container {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.displayName {
+  margin-left: 0.5em;
+  color: $black;
+  font-weight: 400;
+}
+
+.avatarWrapper {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.avatar {
+  border-radius: 100%;
+}
