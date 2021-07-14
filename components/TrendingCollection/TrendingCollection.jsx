@@ -20,7 +20,7 @@ export default function TrendingCollection() {
   const content = results.map((giphy, index) => {
     const { id, title } = giphy;
 
-    const previewUrl = giphy?.images?.downsized?.url;
+    const previewUrl = giphy?.images?.fixed_height_downsampled?.webp;
     const avatarUrl = giphy?.user?.avatar_url;
     const displayName = giphy?.user?.display_name;
 
