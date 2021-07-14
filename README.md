@@ -15,6 +15,10 @@ An Giphy landing page sample build on NextJs. Just using sass and react-icons li
 
   - some hooks to reuse and compose logic for easy maintenance e.g., useKeyPress, useToggle, useInfiniteScroll ...
 
+- Testing
+
+  - dont implement right now but it could be applied easily based on separation of logic, components
+
 - Demo
 
   - <https://trending-gifs.vercel.app//>
